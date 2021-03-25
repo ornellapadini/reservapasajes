@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+    <div id="container">
+        <h1>Reserva de Pasajes</h1>
+        
+        <label>Origen:</label>
+        <select id="select-origen">
+            <option>Buenos Aires</option>
+            <option>Mar del Plata</option>
+            <option>Cordoba</option>
+            <option>Bariloche</option>
+        </select>
+
+        <label>Destino:</label>
+        <select id="select-destino">
+            <option>Buenos Aires</option>
+            <option>Mar del Plata</option>
+            <option>Cordoba</option>
+            <option>Bariloche</option>
+        </select>
+
+        <label>Cantidad de Pasajes</label>
+        <select id="select-cantidad">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+        
+        <label>Fecha de Partida</label>
+        <input type="date"id="fecha-partida">
+
+        <label>Horario de Salida</label>
+        <input type="time"id="horario-salida">
+
+        </div>
+
+    <div id="form">
+        <h1>Datos del pasajero:</h1>
+        <label>Nombre</label>
+        <input type="text"id="nombre">
+        <label>Apellido</label>
+        <input type="text" id="apellido">
+        <label>Nro DNI</label>
+        <input type="number"id="dni">
+        <label>Medios de pago:</label>
+        <select id="medios-pago">
+            <option>Efectivo</option>
+            <option>Debito</option>
+            <option>Tarjeta de Credito</option>
+        </select>
+
+    </div>
+
+    <p id="datos-pasajero"></p>
+    <button id="confirmar">Confirmar Compra </button>
+    </body>
+
+<script src="pasajes.js"></script>
+</html>
